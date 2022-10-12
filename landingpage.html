@@ -13,14 +13,15 @@
 
 <body>
     <header>
-        <!-- BARRA DE NAVEGAÇÃO COM IMAGEM -->
-        <nav class="navbar navbar-expand-sm ">
-            <div class="container-fluid">
-                <div class="header-logo ml-sm-6 ">
+        <!-- BARRA DE NAVEGAÇÃO COM IMAGEM -->            
+        <div class="container-fluid">
+        <nav class="navbar navbar-expand-sm row p-5">
+                <div class="header-logo col-sm-6">
                     <img src="/images/image 4.png" alt="logoempresa">
                 </div>
-                <div class="mr-sm-6">
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                 <div class="mr-sm-6 col-sm-6">
+                    <div class=" navbar-collapse" id="navbarSupportedContent">
+                        <!-- BARRA DE NAVEGAÇÃO -->
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                             <li class="nav-item">
                                 <a class="nav-link active" aria-current="page" href="#">planos</a>
@@ -40,9 +41,9 @@
                             </li>
                         </ul>
                     </div>
-                </div>
             </div>
-        </nav>
+        </nav> 
+    </div>
         <!-- TITULO E IMAGEM DO HEADER -->
         <div class="header-text-img container mt-2">
             <div class="row">
@@ -52,6 +53,8 @@
                         <h4>Fale com nossas consultoras</h4>
                     </button>
                 </div>
+                
+                <!-- IMAGEM DO HEADER -->
                 <div class="header-imagemBanner col-sm-6 p-5">
                     <img class="header-banner" alt="imagem-banner" src="/images/Imagem_Banner.png" width="100%" />
                     <img class="icone-banner" src="/images/icone.svg" alt="icone">
@@ -60,13 +63,14 @@
 
         </div>
     </header>
+
     <!-- HOME -->
     <main>
         <div class="main-text container mt-5">
             <div class="row">
                 <div class="col-sm-8 mt-2">
                     <p>A Tranquilidade Seguros chegou ao Brasil há 9 anos,
-                        trazendo experiência<br /> e consultores especializados
+                        trazendo experiência e consultores especializados
                         para proteger vidas e patrimônios.</p>
                 </div>
                 <div class="col-sm-4 mt-3">
@@ -75,7 +79,6 @@
                 </div>
             </div>
         </div>
-
         <div class="text-center mt-5">
             <h5 class="main-text_color">NOSSOS PLANOS</h5>
             <h3 class="main-text_color">Coberturas para todas <br />
@@ -84,7 +87,7 @@
                 Conheça mais sobre nossas coberturas individuais, familiares e <br /> para empresas.</p>
         </div>
 
-        <!-- IMAGENS COM INFORMÇÕES (3 AO LADO) -->
+        <!-- IMAGENS COM INFORMAÇÕES (3 AO LADO) -->
         <div class="main-images container mt-5">
             <div class="row">
                 <div class=" col-sm-4 ">
@@ -98,7 +101,7 @@
                     </div>
                 </div>
 
-                <div class=" col-sm-4">
+                <div class=" col-sm-4 col-12">
                     <div class="familia">
                         <h5 class="main-text-image_color">Familiar</h5>
                         <img src="/images/Familiar.svg" alt="familia">
@@ -195,7 +198,7 @@
                 <div class="triangulo"></div>
                 <!-- IMAGEM -->
                 <div class="main-imagem2 col-sm-6">
-                    <img class="mt-5" src="/images/Frase.svg" alt="frase">
+                    <img class="mt-5" src="/images/Frase.svg" alt="frase" width="100%">
                 </div>
                 <!-- TEXTO AO LADO DA IAMGEM -->
                 <div class="main-text-imagem2 col-sm-6">
@@ -220,7 +223,7 @@
                         combina com a sua necessidade</h3>
                 </div>
                 <div class="convenios mt-5">
-                    <img src="/images/Logos.svg" alt="convenios">
+                    <img src="/images/Logos.svg" alt="convenios" width="100%">
                 </div>
 
             </div>
@@ -238,7 +241,7 @@
                         suas necessidades.</p>
                 </div>
                 <!-- IMAGEM ANTES DO FORM -->
-                <div class="col-sm-6">
+                <div class="col-sm-6 m-0 p-0">
                     <img src="/images/Imagem_familia.png" alt="imagemFamilia" width="100%" height="100%">
                 </div>
             </div>
@@ -268,29 +271,31 @@
 
     <!-- CONTATO -->
     <section>
-        <div class="contato_color container mt-5">
-            <div class="row">
-                <div class="contato_bg col-sm-6">
-                    <img src="/images/Grupo 43.png" alt="">
-                </div>
-                <div class="contato-text text-center mt-5">
-                    <h5>Entre em contato</h5>
-                    <p>Estamos diariamente expostos à diversos<br />
-                        riscos e por isso contratar um plano de <br />saúde se
-                        faz extremamente.</p>
-                    <input type="text" aria-label="a" placeholder="Seu email">
-                    <button class="contato-button"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                            fill="currentColor" class="bi bi-send" viewBox="0 0 16 16">
-                            <path
-                                d="M15.854.146a.5.5 0 0 1 .11.54l-5.819 14.547a.75.75 0 0 1-1.329.124l-3.178-4.995L.643 7.184a.75.75 0 0 1 .124-1.33L15.314.037a.5.5 0 0 1 .54.11ZM6.636 10.07l2.761 4.338L14.13 2.576 6.636 10.07Zm6.787-8.201L1.591 6.602l4.339 2.76 7.494-7.493Z" />
-                        </svg></button>
+        <div class="contato_color container-fluid mt-5 p-5">
+            <div class="container contato_bg p-5">
+                <div class="row">
+                    <div class=" col-sm-6">
+                        <img src="/images/Grupo 43.png" alt="imagemContato">
+                    </div>
+                    <div class="contato-text text-center mt-5">
+                        <h5>Entre em contato</h5>
+                        <p>Estamos diariamente expostos à diversos<br />
+                            riscos e por isso contratar um plano de <br />saúde se
+                            faz extremamente.</p>
+                        <input type="text" aria-label="a" placeholder="Seu email">
+                        <button class="contato-button"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                fill="currentColor" class="bi bi-send" viewBox="0 0 16 16">
+                                <path
+                                    d="M15.854.146a.5.5 0 0 1 .11.54l-5.819 14.547a.75.75 0 0 1-1.329.124l-3.178-4.995L.643 7.184a.75.75 0 0 1 .124-1.33L15.314.037a.5.5 0 0 1 .54.11ZM6.636 10.07l2.761 4.338L14.13 2.576 6.636 10.07Zm6.787-8.201L1.591 6.602l4.339 2.76 7.494-7.493Z" />
+                            </svg></button>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
     <!-- FOOTER -->
     <footer>
-        <div class="footer_colorbg container mt-5">
+        <div class="footer_colorbg container ">
             <div class="row">
                 <div class="footer-logo col-sm-4">
                     <img src="/images/image 4.png" alt="logoempresa">

@@ -13,6 +13,7 @@ header {
 }
 
 .header-logo {
+  margin-left:90px;
   margin-top: 50px;
 }
 
@@ -33,14 +34,11 @@ h3 {
   /* align-items: center; */
 }
 
-.header-banner {
-}
-
 .icone-banner {
   z-index: 999;
   position: absolute;
-  right: 400px;
-  top: 200px;
+  right: 70%;
+  top: 50%;
 }
 
 /* MAIN PRINCIPAL COM IMAGENS E TEXTOS*/
@@ -54,9 +52,10 @@ h3 {
   text-align: center;
 }
 
-.main text p {
+.main-text p {
   font-family: Roboto, "Helvetica Neue";
   size: 20px;
+  text-align: start;
 }
 
 .main-text_color {
@@ -94,6 +93,7 @@ h3 {
 
 }
 
+
 .main-text-image_color {
   color: #ea4d00;
 }
@@ -116,17 +116,17 @@ h3 {
   text-align: center;
 }
 
-.main-text-info h3{
+.main-text-info h3 {
   font-size: 30px;
   color: #FFE3CD;
 }
 
-.main-text-info h4{
+.main-text-info h4 {
   font-size: 16px;
   color: #FFE3CD;
 }
 
-.main-text-info p{
+.main-text-info p {
   font-size: 16px;
   color: #FFE3CD;
 }
@@ -203,10 +203,17 @@ h3 {
   background-color: #faf1ea;
 }
 
-.contato_bg {
-  background-color: #fff;
-  width: 20%;
-  height: 20%;
+.contato_bg{
+  border-radius:20px;
+  background-color: #FFF8F2; 
+
+}
+
+
+
+.contato_bg img{
+  width: 20vw;
+  height:35vh;
 }
 
 .contato-text h5 {
