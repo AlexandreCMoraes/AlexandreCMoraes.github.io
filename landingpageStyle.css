@@ -1,0 +1,250 @@
+/* CABEÇALHO COM IMAGENS E BARRA DE NAVEGAÇÃO */
+header {
+  color: #fff;
+  background-color: #ea4d00;
+}
+
+.nav-link {
+  color: #fff;
+}
+
+.navbar {
+  font-family: Roboto, "Helvetica Neue";
+}
+
+.header-logo {
+  margin-top: 50px;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+h3 {
+  text-decoration: underline;
+  font-family: Roboto, "Helvetica Neue";
+}
+
+.header-button {
+  color: #fff;
+  background-color: #c44000;
+  border-radius: 15px;
+  border: none;
+  /* align-items: center; */
+}
+
+.header-banner {
+}
+
+.icone-banner {
+  z-index: 999;
+  position: absolute;
+  right: 400px;
+  top: 200px;
+}
+
+/* MAIN PRINCIPAL COM IMAGENS E TEXTOS*/
+.main-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #025471;
+  background-color: #685e54;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.main text p {
+  font-family: Roboto, "Helvetica Neue";
+  size: 20px;
+}
+
+.main-text_color {
+  color: #ea4d00;
+  /* text-align: center; */
+}
+
+.main-textp_color {
+  color: #025471;
+}
+
+/* IMAGENS */
+.main-images {
+  justify-content: center;
+  align-items: center;
+}
+
+/* 6 IMAGENS */
+.mulherSozinha,
+.empresarial,
+.hospitalar {
+  background-color: #02537113;
+  border-radius: 10px;
+  text-align: center;
+  height: 100%;
+}
+
+.familia,
+.profissional,
+.idade {
+  background-color: #ea4e0015;
+  border-radius: 10px;
+  text-align: center;
+  height: 100%;
+
+}
+
+.main-text-image_color {
+  color: #ea4d00;
+}
+
+.main-textp-image_color1 {
+  color: #025471;
+  text-align: center;
+  margin-top: 25px;
+}
+
+.main-textp-image_color2 {
+  color: #ea4d00;
+  text-align: center;
+  margin-top: 25px;
+}
+
+.main-text-info {
+  color: #fff;
+  background-color: #025471;
+  text-align: center;
+}
+
+.main-text-info h3{
+  font-size: 30px;
+  color: #FFE3CD;
+}
+
+.main-text-info h4{
+  font-size: 16px;
+  color: #FFE3CD;
+}
+
+.main-text-info p{
+  font-size: 16px;
+  color: #FFE3CD;
+}
+
+/* FORMA TRIANGULAR */
+.triangulo {
+  display: flex;
+  width: 0;
+  height: 0;
+  border-left: 150px solid transparent;
+  border-right: 150px solid transparent;
+  border-top: 100px solid #025471;
+  position: absolute;
+  z-index: 4;
+  /* top: -18px; */
+}
+
+.main-imagem2 {
+  background-color: #faf1ea;
+}
+
+.main-text-imagem2 {
+  background-color: #faf1ea;
+}
+
+.main-text-imagem2 {
+  color: #025471;
+  font-size: 20px;
+}
+
+.main-text_color1 {
+  color: #ea4e00b7;
+  font-size: 24px;
+}
+
+.main-text_color2 {
+  color: #ea4d00;
+  font-size: 36px;
+}
+
+/* CONVENIOS */
+.main-text-conv_color1 {
+  font-size: 24px;
+  color: #ea4d00;
+  text-align: center;
+}
+
+.main-text-conv_color2 {
+  color: #ea4d00;
+  text-align: center;
+  font-size: 36px;
+}
+
+/* TEXTOS E IMG ANTES DE FORM */
+.main-bef-form-text {
+  font-family: Roboto, "Helvetica Neue";
+  text-align: center;
+  color: #fff;
+  background-color: #ea4d00;
+}
+
+.main-bef-form-text h2 {
+  font-size: 48px;
+}
+
+.main-bef-form-text p {
+  color: #e5ad8a;
+  font-size: 20px;
+}
+
+/* CONTATO */
+.contato_color {
+  font-family: Roboto, "Helvetica Neue";
+  background-color: #faf1ea;
+}
+
+.contato_bg {
+  background-color: #fff;
+  width: 20%;
+  height: 20%;
+}
+
+.contato-text h5 {
+  color: #025471;
+  font-size: 32px;
+}
+
+.contato-text p {
+  color: #a8a8a8;
+  font-size: 20px;
+  /* text-align: ; */
+}
+
+.contato-button {
+  background-color: #ea4d00;
+}
+
+/* FOOTER */
+footer {
+  font-family: Roboto, "Helvetica Neue";
+  font: size 16px;
+  background-color: #ea4d00;
+}
+
+.footer-logo img {
+  margin-top: 60px;
+}
+
+li {
+  color: #f5f5f5;
+  list-style: none;
+  line-height: 2.5em;
+}
+
+.header-button-footer a {
+  line-height: 3em;
+  color: #fff;
+  background-color: #c44000;
+  border-radius: 15px;
+  border: none;
+}
